@@ -1,0 +1,77 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "env": {
+    "node": true,
+    "meteor": false,
+    "browser": false,
+    "mocha": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "global-require": [
+      "off"
+    ],
+    "max-len": [
+      "warn"
+    ],
+    "no-param-reassign": [
+      "off"
+    ],
+    "no-underscore-dangle": "off",
+    "no-unused-vars": [
+      "warn",
+      {
+        "args": "none"
+      }
+    ],
+    "camelcase": "warn",
+    "react/no-unused-state": "warn",
+    "import/extensions": [
+      "warn",
+      {
+        "json": "always"
+      }
+    ],
+    "import/no-absolute-path": [
+      "error"
+    ],
+    "import/no-unresolved": [
+      "error"
+    ],
+    "react/jsx-filename-extension": [
+      "off"
+    ],
+    "jsx-a11y/click-events-have-key-events": [
+      "warn"
+    ],
+    "jsx-a11y/no-noninteractive-element-interactions": [
+      "warn"
+    ],
+    "jsx-a11y/no-static-element-interactions": [
+      "warn"
+    ],
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": [
+          "Link"
+        ],
+        "specialLink": [
+          "to"
+        ]
+      }
+    ],
+    "react/prop-types": [
+      "none"
+    ],
+    "no-use-before-define": "off",
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ]
+  }
+}
